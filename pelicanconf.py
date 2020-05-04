@@ -6,6 +6,7 @@ AUTHOR = 'Popcorn'
 SITENAME = 'Hotpotpy_Blog'
 SITEURL = ''
 
+
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
@@ -13,6 +14,7 @@ TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'
 
 THEME = "../Flex"
+SITELOGO = "/images/profile2.png"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -22,14 +24,15 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/aaron-fung-4aa518a1'),
+          ('github', 'https://github.com/hotpotpy'),
+          )
 
 DEFAULT_PAGINATION = False
 
