@@ -37,6 +37,6 @@ SOCIAL = (('linkedin', 'https://www.linkedin.com/in/aaron-fung-4aa518a1'),
 DEFAULT_PAGINATION = False
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = []
+PLUGINS = ['render_math']
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
